@@ -30,13 +30,13 @@ public final class BoundTest
 	@Test(expected=NullPointerException.class)
 	public void testOpenedBoundCreationWithNull()
 	{
-		Bound.opened(null);
+		Bound.opened((Integer)null);
 	}
 
 	@Test(expected=NullPointerException.class)
 	public void testClosedBoundCreationWithNull()
 	{
-		Bound.closed(null);
+		Bound.closed((Integer)null);
 	}
 
 	@Test
